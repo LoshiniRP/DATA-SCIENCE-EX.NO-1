@@ -53,7 +53,7 @@ df_dropna
 df_dropna.to_csv('clean_data.csv', index=False)
 
 ## OUTLIER DETECTION
-# Step 6: IQR Method (Using Iris Dataset)
+# IQR Method (Using Iris Dataset)
 ir = pd.read_csv('D:/iris.csv')
 ir.head()
 
