@@ -101,7 +101,9 @@ outliers_z
 df_z_cleaned = df_z[z_scores <= threshold]
 df_z_cleaned
 ```
-# Result
 <img width="1240" height="490" alt="Screenshot 2026-03-17 101306" src="https://github.com/user-attachments/assets/6378cc44-09a8-430a-9ecb-69d067a44221" />
 
 <img width="92" height="825" alt="image" src="https://github.com/user-attachments/assets/7170b332-d964-4cdb-bd7a-e8e360e10709" />
+
+# Result
+Thus, the given data and perform data cleaning and save the cleaned data to a file is succesfully completed.
