@@ -20,7 +20,7 @@ STEP 5: Remove outliers using IQR
 STEP 6: Use zscore of to remove outliers
 
 # Coding and Output
-'''
+```
 import pandas as pd
 import numpy as np
 from scipy import stats
@@ -100,7 +100,7 @@ outliers_z
 # Remove Outliers
 df_z_cleaned = df_z[z_scores <= threshold]
 df_z_cleaned
-'''
+```
 # Result
 <img width="1240" height="490" alt="Screenshot 2026-03-17 101306" src="https://github.com/user-attachments/assets/6378cc44-09a8-430a-9ecb-69d067a44221" />
 
